@@ -241,10 +241,19 @@ line-height: 24px;
     margin-bottom: 30px;
     
 }
+.categories button{
+    color: #FFFFFF;
+    letter-spacing: 0.02em;
+    font-size: 14px;
+    line-height: 17px;
+    background: #9A8464;
+    padding: 30px 90px;
+    margin-top: 60px;
+    margin-left: 465px;
+    border-width: 0px;
+}
 
-
-
-
+ 
 
 
  /*
