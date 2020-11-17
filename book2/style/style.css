@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;700&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+a {
+    display: inline-block;
+    transition: all .4s;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+h1,
+h2 {
+    font-size: 42px;
+    line-height: 1.2;
+}
+
+.container {
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.brown_button {
+    background: #9A8464;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding: 22px 40px;
+    min-width: 300px;
+    text-align: center;
+}
+
+.brown_button:hover {
+    background: #776244;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2F2E2F;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 999;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+
+header a {
+    color: #fff;
+}
+
+header a:not(.logo):hover {
+    opacity: .6;
+}
+
+header .logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 170px;
+    height: 160px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    padding-left: 260px;
+}
+
+header ul a {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+header .transparent_button {
+    padding: 12px 50px;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    border: 1px solid #fff;
+}
+
+.banner {
+    background-image: url(../images/BG.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 146px;
+    width: 100%;
+    height: 895px;
+    margin-bottom: 130px;
+}
+
+.banner_container {
+    max-width: 1200px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.banner_container .left {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 325px;
+
+}
+
+.banner_container .left h2 {
+    color: #191719;
+    font-size: 42px;
+    line-height: 49px;
+}
+
+.banner_container .right {
+    display: block;
+    margin-top: 30px;
+
+}
+
+
+
+.main_text {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.main_text h2 {
+    color: #191719;
+    font-size: 42px;
+    line-height: 49px;
+    margin-bottom: 60px;
+
+}
+
+.main_text p {
+    font-size: 18px;
+    line-height: 26px;
+    color: #191719;
+    margin-bottom: 42px;
+    text-align: left;
+}
+
+
+.about_us {
+    padding-bottom: 130px;
+    display: flex;
+    align-items: center;
+    color: #191719;
+}
+
+.about_us img {
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 80%;
+}
+
+.about_us .left {
+    width: 50%;
+    padding-right: 80px;
+    position: relative;
+}
+
+.about_us .left::before {
+    content: '';
+    width: 50vw;
+    z-index: -1;
+    height: 60%;
+    background: #2F2E2F;
+    position: absolute;
+    bottom: 100px;
+    right: 100%;
+    transform: translateX(200px);
+}
+
+.about_us .right {
+    width: 50%;
+}
+
+.about_us h2 {
+    font-size: 42px;
+    line-height: 49px;
+    color: #191719;
+    display: flex;
+    margin-top: 154px;
+
+}
+
+
+
+.about_us .transparent_button {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background: #9A8464;
+    padding: 20px 90px;
+
+    margin-top: 30px;
+}
+
+.about_us .transparent_button:hover {
+    opacity: .6;
+}
+
+.map_Ukraine {
+    background-image: url(../images/image%2069.png);
+    height: 1491px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+
+
+}
+
+.map_container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 4px 0px 0px 4px;
+
+}
