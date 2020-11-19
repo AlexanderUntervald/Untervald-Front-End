@@ -1,6 +1,6 @@
-//let a = $('.first');
-//a.first('jdgjgjdkgj');
-//console.log(a.first());
+let a = $('.first');
+a.text('jdgjgjdkgj');
+console.log(a.text());
 //ничего не выводит в консоль ! 
 
 
