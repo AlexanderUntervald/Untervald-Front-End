@@ -271,6 +271,7 @@ header .transparent_button {
     background-repeat: no-repeat;
     display: block;
     background-position-y: bottom;
+    padding-bottom: 138px;
 
 
 }
@@ -373,7 +374,6 @@ footer {
     padding-bottom: 20px;
     z-index: 999;
     height: 217px;
-    margin-top: 138px;
 
 }
 
@@ -434,6 +434,10 @@ footer {
     border: 1px solid #fff;
     margin-top: 35px;
 
+}
+
+.contact-socials path {
+    fill: #FFFFFF;
 }
 
 
