@@ -113,6 +113,7 @@ header .transparent_button {
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 146px;
+
 }
 
 .banner .container {
@@ -129,7 +130,8 @@ header .transparent_button {
 }
 
 .banner .right {
-    width: 50%;
+    width: 100%;
+
 }
 
 .banner h1 {
@@ -596,4 +598,341 @@ footer {
 
 .contact-socials path {
     fill: #FFFFFF;
+}
+
+@media screen and (max-width:1041px) {
+    header ul {
+        position: fixed;
+        right: 0;
+        flex-direction: column;
+        top: 84px;
+        background: #2F2E2F;
+        padding: 40px;
+        height: calc(100vh - 84px);
+        transform: translateX(100%);
+        transition: all .4s;
+    }
+
+    header ul.active {
+        transform: translateX(0);
+    }
+
+    header ul a {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    header .container {
+        justify-content: center;
+    }
+
+    header .burger {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .burger span {
+        width: 40px;
+        height: 1px;
+        background-color: #fff;
+        position: relative;
+        transition: all .4s;
+    }
+
+    header .burger.active span {
+        width: 0;
+    }
+
+    header .burger span::before,
+    header .burger span::after {
+        content: '';
+        width: 40px;
+        height: 1px;
+        background-color: #fff;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transition: all .4s;
+    }
+
+    header .burger span::before {
+        transform: translateY(-9px) translateX(-50%);
+    }
+
+    header .burger.active span::before {
+        transform: translateY(0) translateX(-50%) rotate(45deg);
+    }
+
+    header .burger span::after {
+        transform: translateY(9px) translateX(-50%);
+    }
+
+    header .burger.active span::after {
+        transform: translateY(0) translateX(-50%) rotate(-45deg);
+    }
+
+    img {
+        width: 100%;
+    }
+
+    header .logo {
+        width: 99px;
+        height: 118px;
+    }
+
+    h1 {
+        font-size: 26px;
+        line-height: 1.2;
+
+    }
+
+    .banner h1 {
+        margin-bottom: 0px;
+    }
+
+    .banner {
+        padding-top: 130px;
+    }
+
+    .banner p {
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+
+    .about_us h2 {
+        font-size: 25px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+
+    .about_us p {
+        font-size: 14px;
+        line-height: 1.33;
+        margin-bottom: 8px;
+    }
+
+    .about_us {
+        padding-bottom: 0px;
+    }
+
+    .testimonials h2 {
+        margin-bottom: 70px;
+        font-size: 24px;
+        line-height: 1.2;
+    }
+
+    .testimonials {
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    .testimonials .content {
+        margin-bottom: 30px;
+    }
+
+    .news {
+        padding-top: 18px;
+        padding-bottom: 10px;
+        margin-bottom: 5px;
+    }
+
+    .news .item p {
+        padding-left: 17px;
+        padding-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .news .item h3 {
+        font-size: 13px;
+        line-height: 22px;
+        padding-left: 0px;
+    }
+
+    .news .name {
+        padding-left: 18px;
+        padding-right: 8px;
+        margin-bottom: 6px;
+        display: flex;
+        align-items: center;
+    }
+
+    .news .item > img {
+        margin-bottom: 5px;
+    }
+
+    h2 {
+        font-size: 25px;
+        line-height: 1.2;
+    }
+
+    .acquire_container {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    .acquire_number {
+        font-size: 110px;
+        line-height: 72px;
+        position: absolute;
+        font-weight: 600;
+        top: 0;
+        padding-top: 14px;
+        padding-left: 11px;
+    }
+
+    .acquire_container .acquire_block h2 {
+        font-size: 18px;
+        line-height: 15px;
+        padding-bottom: 9px;
+    }
+
+    .acquire_container .acquire_block p {
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    .acquire_container .acquire_block img {
+        transform: translate(28%, 0%);
+    }
+
+    .acquire_container .acquire_block:first-child {
+        padding-top: 70px;
+    }
+
+
+
+    .acquire_container .acquire_block:last-child {
+        padding-top: 70px;
+    }
+
+    .acquire_container .acquire_block {
+        padding: 61px 46px 0px;
+    }
+
+    .map_container_left {
+        width: 75%;
+        margin-top: 85px;
+        margin-left: 80px;
+    }
+
+    .map_container_left h3 {
+        font-size: 17px;
+        line-height: 14px;
+        margin-top: 18px;
+    }
+
+    .map_container_left a {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .map_container {
+        padding-bottom: 50px;
+    }
+
+    .news h2 {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .social_information a {
+        font-size: 11px;
+        line-height: 20px;
+        padding-top: 5px;
+    }
+
+    footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: 145px;
+    }
+
+    .information a {
+        font-size: 12px;
+        line-height: 24px;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+
+}
+
+@media screen and (max-width:856px) {
+    header {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    header .logo {
+        width: 59px;
+        height: 59px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .banner p {
+        font-size: 12px;
+        margin-bottom: 7px;
+    }
+
+    .about_us h2 {
+        font-size: 17px;
+        line-height: 1.2;
+        margin-bottom: 5px;
+    }
+
+    .about_us p {
+        font-size: 10px;
+        line-height: 1.33;
+        margin-bottom: 4px;
+    }
+
+    .testimonials h2 {
+        margin-bottom: 55px;
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    .banner {
+        padding-top: 67px;
+    }
+
+    .testimonials .date {
+        font-size: 9px;
+        margin-bottom: 1px;
+    }
+
+    .testimonials h3 {
+        font-size: 12px;
+        margin-bottom: 1px;
+    }
+
+    .testimonials .text {
+        font-size: 8px;
+        line-height: 1.3;
+    }
+
+    .testimonials .social {
+        font-size: 8px;
+        margin-bottom: 4px;
+    }
+
+    .social svg {
+        padding-bottom: 10px;
+    }
+
+
+
+
+
+
+
 }

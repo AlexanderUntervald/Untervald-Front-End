@@ -545,8 +545,8 @@ footer {
 
     .main_text h2 {
         color: #191719;
-        font-size: 20px;
-        line-height: 10px;
+        font-size: 30px;
+        line-height: 15px;
         margin-bottom: 20px;
     }
 
@@ -556,10 +556,9 @@ footer {
     }
 
     .main_text p {
-        font-size: 11px;
-        line-height: 14px;
-        color: #191719;
-        margin-bottom: 18px;
+        font-size: 15px;
+        line-height: 13px;
+        margin-bottom: 10px;
     }
 
     .about_us img {
@@ -646,6 +645,35 @@ footer {
 @media screen and (max-width:740px) {
 
     header .logo {
+        width: 76px;
+    }
+
+    .main_text h2 {
+        font-size: 12px;
+        line-height: 4px;
+        margin-bottom: 10px;
+    }
+
+    .main_text p {
+        font-size: 8px;
+        line-height: 9px;
+        margin-bottom: 10px;
+    }
+
+    .about_us h2 {
+        text-align: center;
+    }
+
+    .about_us .transparent_button {
+
+        margin-left: 123px;
+    }
+
+}
+
+@media screen and (max-width:378px) {
+
+    header .logo {
         width: 60px;
         height: 60px;
     }
@@ -659,7 +687,10 @@ footer {
         align-items: center;
     }
 
+    banner_container {
 
-
-
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 }
