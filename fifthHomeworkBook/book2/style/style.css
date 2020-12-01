@@ -426,7 +426,11 @@ footer {
 
     .banner {
         margin-bottom: 60px;
+        height: 870px;
     }
+
+
+
 
     .social_information {
 
@@ -443,10 +447,7 @@ footer {
         padding-bottom: 80px;
     }
 
-    .banner {
-        height: 700px;
 
-    }
 
     .banner_container .left {
         margin-top: 220px;
@@ -601,10 +602,6 @@ footer {
         margin-top: 10px;
     }
 
-    .map_container_left {
-        margin-top: 50px;
-        margin-left: 60px;
-    }
 
     .map_container_left h3 {
         font-size: 17px;
@@ -614,6 +611,11 @@ footer {
 
     .map_container {
         padding-bottom: 30px;
+    }
+
+    .map_container_left {
+        margin-top: 60px;
+        margin-left: 47px;
     }
 
     footer {
@@ -642,21 +644,21 @@ footer {
 
 }
 
-@media screen and (max-width:740px) {
+@media screen and (max-width:902px) {
 
     header .logo {
         width: 76px;
     }
 
     .main_text h2 {
-        font-size: 12px;
+        font-size: 17px;
         line-height: 4px;
         margin-bottom: 10px;
     }
 
     .main_text p {
-        font-size: 8px;
-        line-height: 9px;
+        font-size: 10px;
+        line-height: 11px;
         margin-bottom: 10px;
     }
 
@@ -664,13 +666,518 @@ footer {
         text-align: center;
     }
 
-    .about_us .transparent_button {
 
-        margin-left: 123px;
+
+    .banner_container .left {
+        margin-top: 155px;
+    }
+
+
+
+    img {
+        display: block;
+        width: 100%;
+    }
+
+    .banner_container .left h2 {
+
+        font-size: 18px;
+        line-height: 18px;
+
+    }
+
+    .banner_container .right {
+
+        display: block;
+        margin-top: 0px;
+        width: 200px;
+    }
+
+
+
+    .banner {
+        height: 430px;
+        margin-bottom: 10px;
+        padding-top: 110px;
+    }
+
+    .about_us .right {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about_us h2 {
+        font-size: 15px;
+        line-height: 15px;
+        margin-top: 10px;
+    }
+
+
+
+    .social_information a {
+        font-size: 12px;
+        line-height: 13px;
+        color: #FFFFFF;
+        padding-top: 0px;
+    }
+
+    .contact-socials svg {
+        margin-right: 5px;
+        width: 20px;
+        height: 20xp;
+    }
+
+    .logo_over {
+        width: 76px;
+    }
+
+    .information a {
+        font-size: 12px;
+        line-height: 21px;
+        padding-top: 2px;
+
+        padding-left: 20px;
+    }
+
+    .social_information {
+        margin-right: 50px;
+        padding-left: 50px;
+    }
+
+    .social_information a {
+        padding-top: 5px;
+    }
+
+    footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: 101px;
+    }
+
+    .contact-socials {
+        display: block;
+        margin-top: 2px;
+        display: flex;
+    }
+
+    .footer_container .social_button {
+        margin-top: 15px;
+    }
+
+    .about_us .left::before {
+        content: '';
+        bottom: 66px;
+    }
+
+    .about_us .transparent_button {
+        font-size: 12px;
+        line-height: 6px;
+        padding: 17px 80px;
+        margin-top: 18px;
+    }
+
+    .footer_container .social_button {
+        padding: 9px 40px;
+        font-size: 10px;
+        margin-top: 35px;
+    }
+
+    .footer_container {
+        max-width: 1200px;
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:619px) {
+    header ul {
+        top: 35px;
+        padding: 10px;
+    }
+
+    header ul a {
+        padding-top: 3px;
+        padding-bottom: 6px;
+        font-size: 12px;
+    }
+
+    header {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    header .logo {
+        width: 60px;
+    }
+
+    header .transparent_button {
+        font-size: 12px;
+    }
+
+    .banner_container .left h2 {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .banner_container .left {
+        margin-top: 80px;
+    }
+
+
+
+    .banner {
+        height: 310px;
+        margin-bottom: 10px;
+        padding-top: 60px;
+    }
+
+    .right img {
+        width: 140px;
+    }
+
+    .main_text h2 {
+        font-size: 13px;
+        line-height: 1px;
+        margin-bottom: 8px;
+    }
+
+    .main_text p {
+        font-size: 9px;
+        line-height: 9px;
+        margin-bottom: 5px;
+    }
+
+    .about_us h2 {
+        font-size: 11px;
+        line-height: 11px;
+        margin-top: 0px;
+    }
+
+    .about_us .transparent_button {
+        font-size: 9px;
+        line-height: 1px;
+        padding: 12px 54px;
+        margin-top: 8px;
+    }
+
+
+
+    .about_us img {
+        margin-top: 8px;
+        width: 54%;
+        margin-left: 30px;
+    }
+
+    .about_us .left::before {
+        transform: translateX(100px);
+        height: 45%;
+
+    }
+
+    .about_us {
+        padding-bottom: 5px;
+    }
+
+
+    .contakt_map h2 {
+        font-size: 12px;
+        line-height: 12px;
+        margin-bottom: 10px;
+    }
+
+
+    .map_container_left h3 {
+        font-size: 10px;
+        line-height: 10px;
+        margin-top: 10px;
+    }
+
+    .map_container_left a {
+        font-size: 10px;
+        line-height: 2px;
+        margin-top: 6px;
+    }
+
+    .map_container {
+        padding-bottom: 15px;
+    }
+
+    .information a {
+        font-size: 6px;
+        line-height: 6px;
+        padding-top: 1px;
+        padding-left: 10px;
+    }
+
+
+    .social_information a {
+        font-size: 6px;
+        line-height: 7px;
+        padding-top: 10px;
+    }
+
+    .contact-socials svg {
+        margin-right: 3px;
+        width: 10px;
+        height: 10xp;
+    }
+
+    .logo_over {
+        width: 60px;
+    }
+
+    .footer_container .social_button {
+        padding: 7px 30px;
+        font-size: 7px;
+        margin-top: 19px;
+    }
+
+    footer {
+        padding-top: 3px;
+        padding-bottom: 3px;
+        height: 80px;
+    }
+}
+
+
+@media screen and (max-width:436px) {
+    .banner {
+        height: 280px;
+        margin-bottom: 5px;
+        padding-top: 56px;
+    }
+
+    .about_us .left::before {
+        height: 44%;
+        bottom: 55px;
+    }
+
+
+    .map_container_left a {
+        font-size: 8px;
+        line-height: 2px;
+        margin-top: 4px;
+    }
+
+    .logo_over {
+        width: 50px;
+    }
+
+    .information a {
+        font-size: 6px;
+        line-height: 6px;
+        padding-top: 1px;
+        padding-left: 5px;
+    }
+
+    footer {
+        padding-top: 3px;
+        padding-bottom: 3px;
+        height: 73px;
+    }
+
+    .information {
+        margin-top: 0px;
+    }
+
+    .social_information {
+        margin-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+
+@media screen and (max-width:375px) {
+
+
+
+    header ul {
+        width: 100%;
+        align-items: center;
+        top: 28px;
+        padding: 10px;
+
+    }
+
+    header .transparent_button {
+
+        font-size: 8px;
+        padding: 6px 30px;
+
+    }
+
+    header .logo {
+        width: 29px;
+    }
+
+    .information a {
+        font-size: 10px;
+        line-height: 6px;
+        padding-top: 1px;
+        padding-left: 12px;
+    }
+
+
+
+
+    .banner_container {
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .banner_container .left {
+        margin-bottom: 10px;
+        margin-top: 5px;
+
+    }
+
+    .banner {
+        height: 310px;
+        margin-bottom: 5px;
+        padding-top: 45px;
+
+    }
+
+    .banner_container .left h2 {
+        font-size: 13px;
+        line-height: 13px;
+    }
+
+    .banner_container .right {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .main_text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main_text p {
+        text-align: center;
+    }
+
+
+    .about_us {
+        padding-bottom: 5px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about_us .transparent_button {
+        margin-left: 30px;
+        font-size: 8px;
+        line-height: 1px;
+        padding: 10px 37px;
+        margin-top: 6px;
+    }
+
+
+
+    .map_container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .map_container_left {
+        margin-top: 10px;
+        margin-left: 0px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .about_us img {
+        margin-top: 8px;
+        width: 70%;
+        margin-left: 30px;
+    }
+
+    .footer_container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    footer {
+        padding-top: 3px;
+        padding-bottom: 3px;
+        height: 223px;
+    }
+
+
+    .logo_over {
+        width: 55px;
+    }
+
+    .container {
+        max-width: 1200px;
+        padding-left: 5px;
+        padding-right: 5px;
+
+
+    }
+
+    .social_information {
+        margin-right: 10px;
+        padding-left: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .social_information a {
+        font-size: 11px;
+        line-height: 15px;
+        padding-top: 10px;
+    }
+
+    .contact-socials svg {
+        margin-right: 4px;
+        width: 16px;
+        height: 10xp;
+    }
+
+    .contact-socials {
+        display: block;
+        margin-top: 2px;
+        display: flex;
+
+    }
+
+    .footer_container .social_button {
+        padding: 7px 30px;
+        font-size: 7px;
+        margin-top: 5px;
+    }
+
+    .about_us .left::before {
+        content: '';
+        width: 60vw;
     }
 
 }
 
+
+
+
+
+
+
+
+/*  
 @media screen and (max-width:378px) {
 
     header .logo {
@@ -682,15 +1189,5 @@ footer {
         width: 100%;
     }
 
-    header ul {
-        width: 100%;
-        align-items: center;
-    }
 
-    banner_container {
-
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
 }

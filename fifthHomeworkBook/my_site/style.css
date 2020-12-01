@@ -320,7 +320,11 @@ header .transparent_button {
 
 .news .item > img {
     margin-bottom: 30px;
+    width: 100%;
 }
+
+
+
 
 .news .item p {
     padding-left: 30px;
@@ -763,9 +767,6 @@ footer {
         align-items: center;
     }
 
-    .news .item > img {
-        margin-bottom: 5px;
-    }
 
     h2 {
         font-size: 25px;

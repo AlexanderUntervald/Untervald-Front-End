@@ -77,6 +77,11 @@ header .container {
     justify-content: space-between;
     position: relative;
     align-items: center;
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 header a {
@@ -98,12 +103,17 @@ header .logo {
 header ul {
     list-style: none;
     display: flex;
-    padding-left: 260px;
+    padding-left: 238px;
+    padding-right: 165px;
 }
 
 header ul a {
     padding-left: 15px;
     padding-right: 15px;
+}
+
+transparent_button_box {
+    display: inline-block;
 }
 
 header .transparent_button {
@@ -172,53 +182,69 @@ header .transparent_button {
 }
 
 .categories {
-    width: 100%;
     max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
 }
 
-.categories .categories_container h2 {
-    margin-bottom: 60px;
-}
-
-
-.categories .categories_container ul {
-    list-style: none;
-}
-
-.categories .categories_container ul {
+.categories_container {
     display: flex;
-    align-items: center;
-    flex-direction: row;
-    font-size: 18px;
-    line-height: 1.2;
-    color: #FFFFFF;
+    align-items: baseline;
+    flex-direction: column;
+    margin-bottom: 40px;
 }
 
-.categories .categories_container a {
-    background: #9A8464;
-    font-size: 18px;
-    line-height: 1.2;
-    color: #FFFFFF;
+categories_container_push {
+    max-height: 1200px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    margin-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
     text-align: center;
-    padding: 22px 35px;
-    border: 0.2px solid #000;
+    border-spacing: 0;
     border-collapse: collapse;
-    min-width: 235px;
 }
 
+table td {
+    padding: 15px 66px;
+    border: 1px solid #000;
+}
 
-.categories_books {
-    display: flex;
-    justify-content: space-around;
+table td:first-child {
+    padding: 19px 100px;
+    border: 1px solid #000;
+}
+
+.categories_container_push a {
+    display: block;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #191719;
+    font-size: 16px;
+    line-height: 22px;
 }
 
 .books_settings {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    width: 100%;
+}
 
-    margin-top: 60px;
+.categories_books {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
 
 }
+
+
 
 .categories_books p {
     color: #C4C4C4;
@@ -440,7 +466,7 @@ footer {
     fill: #FFFFFF;
 }
 
-@media screen and (max-width:1041px) {
+@media screen and (max-width:1041px) @media screen and (max-width:1041px) {
     header ul {
         position: fixed;
         right: 0;
@@ -518,24 +544,7 @@ footer {
         transform: translateY(0) translateX(-50%) rotate(-45deg);
     }
 
-    img {
-        display: block;
-        width: 90%;
-    }
 
-    h2 {
-        font-size: 35px;
-        line-height: 1.2;
-    }
-
-    .banner_container .left p {
-        margin-top: 5px;
-    }
-
-    .banner_container .left {
-        margin-top: 240px;
-        margin-left: 126px;
-    }
 
 
 
