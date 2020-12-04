@@ -159,6 +159,8 @@ header .transparent_button {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .main_text h2 {
@@ -821,7 +823,7 @@ footer {
     }
 
     .banner_container .left h2 {
-        font-size: 14px;
+        font-size: 15px;
         line-height: 14px;
     }
 
@@ -842,19 +844,19 @@ footer {
     }
 
     .main_text h2 {
-        font-size: 13px;
-        line-height: 1px;
-        margin-bottom: 8px;
+        font-size: 15px;
+        line-height: 10px;
+        margin-bottom: 12px;
     }
 
     .main_text p {
-        font-size: 9px;
-        line-height: 9px;
+        font-size: 12px;
+        line-height: 12px;
         margin-bottom: 5px;
     }
 
     .about_us h2 {
-        font-size: 11px;
+        font-size: 13px;
         line-height: 11px;
         margin-top: 0px;
     }
@@ -886,21 +888,21 @@ footer {
 
 
     .contakt_map h2 {
-        font-size: 12px;
+        font-size: 13px;
         line-height: 12px;
         margin-bottom: 10px;
     }
 
 
     .map_container_left h3 {
-        font-size: 10px;
-        line-height: 10px;
+        font-size: 12px;
+        line-height: 12px;
         margin-top: 10px;
     }
 
     .map_container_left a {
-        font-size: 10px;
-        line-height: 2px;
+        font-size: 12px;
+        line-height: 12px;
         margin-top: 6px;
     }
 
@@ -960,8 +962,8 @@ footer {
 
 
     .map_container_left a {
-        font-size: 8px;
-        line-height: 2px;
+        font-size: 12px;
+        line-height: 12px;
         margin-top: 4px;
     }
 
@@ -990,6 +992,25 @@ footer {
         margin-right: 20px;
         padding-left: 20px;
     }
+
+    header .burger span::before,
+    header .burger span::after {
+        content: '';
+        width: 20px;
+    }
+
+    header .burger {
+        width: 20px;
+    }
+
+    header .burger span::before {
+        transform: translateY(-6px) translateX(-50%);
+    }
+
+    header .burger span::after {
+        transform: translateY(6px) translateX(-50%);
+    }
+
 }
 
 
@@ -1115,7 +1136,7 @@ footer {
     footer {
         padding-top: 3px;
         padding-bottom: 3px;
-        height: 223px;
+        height: 240px;
     }
 
 
@@ -1138,8 +1159,15 @@ footer {
         align-items: center;
     }
 
+    .information a {
+        font-size: 14px;
+        line-height: 14px;
+        padding-top: 1px;
+        padding-left: 12px;
+    }
+
     .social_information a {
-        font-size: 11px;
+        font-size: 14px;
         line-height: 15px;
         padding-top: 10px;
     }
@@ -1166,6 +1194,43 @@ footer {
     .about_us .left::before {
         content: '';
         width: 60vw;
+    }
+
+    .main_text p {
+        font-size: 12px;
+        line-height: 12px;
+        margin-bottom: 12px;
+    }
+
+    .about_us .left {
+        width: 45%;
+        padding-right: 0px;
+        padding-bottom: 15px;
+    }
+
+    .about_us h2 {
+        font-size: 13px;
+        line-height: 11px;
+        margin-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    header .burger span::before,
+    header .burger span::after {
+        content: '';
+        width: 20px;
+    }
+
+    header .burger {
+        width: 20px;
+    }
+
+    header .burger span::before {
+        transform: translateY(-6px) translateX(-50%);
+    }
+
+    header .burger span::after {
+        transform: translateY(6px) translateX(-50%);
     }
 
 }
