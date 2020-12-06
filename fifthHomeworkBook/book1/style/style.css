@@ -292,6 +292,7 @@ table td {
     margin-top: 60px;
     margin-left: 465px;
     border-width: 0px;
+    margin-bottom: 30px;
 }
 
 
@@ -978,6 +979,9 @@ footer {
 }
 
 @media screen and (max-width:494px) {
+    .banner_container .left p{
+        width: auto;
+    }
     .banner {
         height: 666px;
         padding-top: 80px;
