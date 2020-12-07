@@ -202,6 +202,7 @@ header .transparent_button {
 
 }
 
+
 table {
     margin-top: 60px;
     text-align: center;
@@ -469,6 +470,26 @@ footer {
     fill: #FFFFFF;
 }
 
+.categories button:hover {
+    opacity: .6;
+}
+
+.map_container_left:hover {
+    opacity: .6;
+}
+
+.information a:hover {
+    opacity: .6;
+}
+
+.social_information a:hover {
+    opacity: .6;
+}
+
+.footer_container .social_button:hover {
+    opacity: .6;
+}
+
 @media screen and (max-width:1112px) {
     header ul {
         position: fixed;
@@ -697,6 +718,10 @@ footer {
         line-height: 1.2;
     }
 
+    .banner_container .left {
+        width: 50%;
+    }
+
     .banner_container .left p {
         color: #191719;
         font-size: 20px;
@@ -763,14 +788,347 @@ footer {
     }
 
 
+}
+
+@media screen and (max-width:794px) {
+
+    .banner {
+        height: 900px;
+        padding-top: 110px;
+    }
+
+    .banner_container {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .banner_container .left {
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+
+    h2 {
+        padding-bottom: 10px;
+    }
+
+    .banner_container .left p {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .books_settings img {
+        padding: 10px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .categories_books {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 30px;
+        flex-wrap: wrap;
+    }
+
+    .books_settings {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .categories_books h2 {
+        padding-bottom: 30px;
+    }
+
+    .map_container_right {
+        width: 50%;
+    }
+
+    .map_container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .map_container_left {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 0px;
+        margin-left: 0px
+    }
+
+    .categories button {
+        margin-bottom: 30px;
+    }
+
+    .logo_over {
+        width: 50px;
+        padding-top: 0px;
+    }
+
+    .information {
+        padding-top: 0px;
+    }
+
+    .social_information a {
+        font-size: 13px;
+        line-height: 18px;
+        padding-top: 4px;
+    }
+
+    .footer_container .social_button {
+        margin-top: 15px;
+    }
+
+    footer {
+        height: 150px;
+    }
+
+    .information a {
+        font-size: 13px;
+        line-height: 20px;
+        padding-left: 10px;
+        padding-top: 0px;
+    }
+
+    .contact-socials {
+        display: block;
+        margin-top: 0px;
+        display: flex;
+        width: 83px;
+    }
+
+}
+
+@media screen and (max-width:640px) {
+    header .logo {
+        width: 70px;
+        height: 80px;
+    }
+
+    h2 {
+        font-size: 22px;
+        line-height: 1.2;
+    }
+
+    .banner {
+        height: 730px;
+        padding-top: 90px;
+    }
+
+    .banner_container .left p {
+        font-size: 16px;
+        line-height: 16px;
+        margin-top: 8px;
+        padding-bottom: 15px;
+    }
+
+    .categories_container_push a {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    table td {
+        padding: 6px 12px;
+        border: 1px solid #000;
+    }
+
+    .categories_books h3 {
+        font-size: 15px;
+        line-height: 13px;
+        margin-top: 10px;
+    }
+
+    .footer_container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    footer {
+        height: 360px;
+    }
+
+    .social_information {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo_over {
+        width: 100px;
+        padding-top: 0px;
+    }
+
+    .social_information a {
+        font-size: 15px;
+        line-height: 18px;
+        padding-top: 10px;
+    }
+
+}
+
+@media screen and (max-width:494px) {
+    .banner {
+        height: 666px;
+        padding-top: 80px;
+    }
+
+    h2 {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    .banner_container .left p {
+        font-size: 15px;
+        line-height: 15px;
+        margin-top: 8px;
+        padding-bottom: 15px;
+    }
+
+    .banner_container .left button {
+        height: 57px;
+        font-size: 14px;
+        line-height: 12px;
+        padding: 15px 30px;
+    }
+
+    .banner_container .right {
+        padding-left: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .categories_container_push a {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    table td {
+        padding: 3px 10px;
+        border: 1px solid #000;
+    }
+
+    table {
+        margin-top: 10px;
+    }
+
+    .books_settings {
+        width: 100%;
+    }
+
+    .books_settings img {
+        padding: 10px;
+        width: 370px;
+        margin-bottom: 10px;
+    }
+
+    header .transparent_button {
+        padding: 7px 40px;
+        font-size: 14px;
+    }
+
+    header .logo {
+        width: 58px;
+        height: 58px;
+    }
+
+    header ul {
+        top: 70px;
+        padding: 32px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .banner_container .left button {
+        height: 45px;
+        font-size: 12px;
+        line-height: 12px;
+        padding: 15px 25px;
+    }
+
+    .banner {
+        height: 600px;
+        padding-top: 60px;
+    }
+
+    .map_Ukraine {
+        padding-bottom: 30px;
+    }
+
+    .map_container_left a {
+        font-size: 13px;
+        line-height: 14px;
+        margin-top: 10px;
+    }
+
+    .map_container_left {
+        width: 100%;
+    }
+
+    .map_container_right {
+        width: 100%;
+    }
+
+    .categories_books h2 {
+        font-size: 19px;
+        line-height: 10px;
+    }
+
+    .categories button {
+        font-size: 13px;
+        line-height: 17px;
+        padding: 16px 50px;
+    }
+
+    .categories_books {
+        padding-bottom: 0px;
+    }
+
+    .categories_container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
 
 
 
 }
 
 
+@media screen and (max-width:375px) {
+
+    header ul {
+        top: 71px;
+        padding: 32px;
+        height: calc(44vh - 84px);
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    header .logo {
+        width: 50px;
+        height: 50px;
+    }
 
 
+
+
+
+}
 
 
 

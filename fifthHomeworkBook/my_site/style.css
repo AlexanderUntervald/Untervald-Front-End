@@ -369,6 +369,11 @@ header .transparent_button {
 
 }
 
+.acquire_container .acquire_block img {
+    transform: translate(16%, 0%);
+    width: 100%;
+}
+
 .acquire_container .acquire_block {
     width: calc(33.333333% - 20px);
     background: #2F2E2F;
@@ -394,9 +399,6 @@ header .transparent_button {
     line-height: 24px;
 }
 
-.acquire_container .acquire_block img {
-    transform: translate(-13%, 0%);
-}
 
 .acquire_container .acquire_box2 {
     padding-top: 57px;
@@ -861,77 +863,5 @@ footer {
         padding-top: 10px;
         padding-left: 20px;
     }
-
-}
-
-@media screen and (max-width:856px) {
-
-    header .logo {
-        width: 55px;
-        height: 55px;
-    }
-
-    header {
-        padding-top: 7px;
-        padding-bottom: 7px;
-        z-index: 999;
-    }
-
-    header ul {
-        top: 56px;
-        padding: 14px;
-    }
-
-
-        {
-        top: 55px;
-        padding: 17x;
-    }
-
-    .banner {
-        padding-top: 59px;
-    }
-
-    h1 {
-        font-size: 18px;
-        line-height: 1.2;
-    }
-
-    .banner p {
-        font-size: 13px;
-        margin-bottom: 10px;
-    }
-
-    .brown_button {
-        background: #9A8464;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #FFFFFF;
-        padding: 13px 24px;
-        min-width: 150px;
-        text-align: center;
-    }
-
-    .about_us h2 {
-        font-size: 8px;
-        line-height: 1.2;
-        margin-bottom: 0px;
-    }
-
-    .about_us p {
-        font-size: 8px;
-        line-height: 1.33;
-        margin-bottom: 4px;
-    }
-
-
-
-
-
-
-
-
 
 }
