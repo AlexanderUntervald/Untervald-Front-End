@@ -937,9 +937,21 @@ footer {
         line-height: 14px;
     }
 
+    table {
+        flex-wrap: wrap;
+    }
+
+    table tr {
+        width: 50%;
+    }
+
     table td {
         padding: 6px 12px;
         border: 1px solid #000;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
     }
 
     .categories_books h3 {
@@ -979,9 +991,10 @@ footer {
 }
 
 @media screen and (max-width:494px) {
-    .banner_container .left p{
+    .banner_container .left p {
         width: auto;
     }
+
     .banner {
         height: 666px;
         padding-top: 80px;
