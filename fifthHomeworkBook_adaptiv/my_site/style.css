@@ -200,6 +200,128 @@ header .transparent_button {
     opacity: .6;
 }
 
+
+
+
+
+
+
+
+.slider_container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background: #2F2E2F;
+
+}
+
+.top_book_slider {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 60px;
+    padding-top: 100px;
+    position: relative;
+}
+
+/*
+.sliderArrows1 {
+    position: absolute;
+    transform: translate(-565px, -15px);
+}
+
+
+.sliderArrows2 {
+    position: absolute;
+    transform: translate(565px, -15px);
+}*/
+
+
+
+
+
+.top_book_slider h2 {
+    font-size: 42px;
+    line-height: 1.2;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.slider {
+    padding-bottom: 60px;
+}
+
+.slide img {
+    display: block;
+    width: 100%;
+}
+
+.slide {
+    padding: 15px;
+
+}
+
+.slide p {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #C4C4C4;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.slide h4 {
+    font-size: 18px;
+    line-height: 1.2;
+    color: #C4C4C4;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.slide h3 {
+    font-size: 30px;
+    line-height: 1.2;
+    color: #C4C4C4;
+    padding-top: 10px;
+}
+
+.slider_container_button button {
+
+    color: #FFFFFF;
+    letter-spacing: 0.02em;
+    font-size: 14px;
+    line-height: 17px;
+    background: #9A8464;
+    padding: 30px 90px;
+    margin-top: 10px;
+    border-width: 0px;
+    margin-bottom: 40px;
+}
+
+.slider_container_button {
+
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .testimonials {
     max-width: 1200px;
     margin-right: auto;
@@ -730,7 +852,7 @@ footer {
 
 
     .about_us {
-        padding-bottom: 0px;
+        padding-bottom: 50px;
     }
 
     .testimonials h2 {
@@ -772,7 +894,8 @@ footer {
         margin-bottom: 6px;
         display: flex;
         align-items: center;
-        width: 240px;
+        width: 191px;
+
     }
 
 
@@ -1106,6 +1229,7 @@ footer {
     .about_us .right {
         width: 100%;
         text-align: center;
+        padding-bottom: 50px;
     }
 
     .testimonials .item {
