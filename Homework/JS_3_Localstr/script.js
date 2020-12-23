@@ -63,23 +63,25 @@ $('.basket button ').on('click', function () {
     let products = JSON.parse(localStorage.getItem('products')).products;
     for (let i = 0; i < products.length; i++) {
         let title = products[i].title;
-        $('.bloc_show1').append(
-            '<h3>' + title + '</h3><img src=' + products[i].image + '/>');
+        $('.blocShow').append(
+            '<div class="blocShow1"><h3>' + title + '</h3><img src=images/' + products[i].image + '/><h4>' + products[i].size + '</h4> <h5>' + products[i].color + '</h5> </div>');
     }
-    //            $(function () {
-    //                    $('.bloc_show1').append('<h4>' + title + '</h4>);
-    //
-    //                    });
-
-
 
 });
+//            addEvent(d.getElementById('clear'), 'click', function (products) {
+//                localStorage.removeItem('blocShow1');
+//                cartCont.innerHTML = 'Корзина очишена.';
 
-//расширение корзины
-//    if (total_items > 4) {
+
+
+
+
 //
-//        $("#cart_items").animate({
-//            width: "+=120"
-//        }, 'slow');
-//
-//    }
+////расширение корзины
+////    if (total_items > 4) {
+////
+////        $("#cart_items").animate({
+////            width: "+=120"
+////        }, 'slow');
+////
+////    }
